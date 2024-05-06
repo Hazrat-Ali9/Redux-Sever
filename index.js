@@ -38,6 +38,7 @@ const run = async () => {
 
       res.send(result);
     });
+    // Patch
     app.patch("/purchase/:id", async (req, res) => {
       const id = req.params.id;
       const filter = { _id: ObjectId(id) };
