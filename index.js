@@ -52,7 +52,7 @@ const run = async () => {
       );
       res.send(updatedProduct);
     });
-
+// Delete
     app.delete("/product/:id", async (req, res) => {
       const id = req.params.id;
 
