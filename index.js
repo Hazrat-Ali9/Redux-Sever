@@ -64,6 +64,7 @@ const run = async () => {
   }
 };
 
+// Catch
 run().catch((err) => console.log(err));
 
 app.get("/", (req, res) => {
