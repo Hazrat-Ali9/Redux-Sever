@@ -18,7 +18,7 @@ const client = new MongoClient(uri, {
   useUnifiedTopology: true,
   serverApi: ServerApiVersion.v1,
 });
-
+// Async Function
 const run = async () => {
   try {
     const db = client.db("moontech");
