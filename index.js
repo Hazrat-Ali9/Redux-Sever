@@ -30,7 +30,7 @@ const run = async () => {
 
       res.send({ status: true, data: product });
     });
-
+// Send Post Method
     app.post("/product", async (req, res) => {
       const product = req.body;
 
