@@ -56,7 +56,7 @@ const run = async () => {
 // Delete
     app.delete("/product/:id", async (req, res) => {
       const id = req.params.id;
-
+// Product Collection
       const result = await productCollection.deleteOne({ _id: ObjectId(id) });
       res.send(result);
     });
